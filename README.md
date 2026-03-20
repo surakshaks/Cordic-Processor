@@ -46,31 +46,7 @@ The CORDIC algorithm performs vector rotation through a sequence of micro-rotati
 - Precomputed arctangent values are used  
 - The vector converges to the desired angle  
 
-After all iterations, the outputs correspond to cosine (x) and sine (y).
-
----
-
-## Project Structure
-
-
-cordic-processor/
-│
-├── src/ # Verilog source code
-│ └── cordic.v
-│
-├── tb/ # Testbench
-│ └── tb_cordic.v
-│
-├── waveforms/ # Simulation results
-│ ├── waveform_1.png
-│ ├── waveform_2.png
-│ └── ...
-│
-├── docs/ # Documentation
-│ ├── report.pdf
-│ └── presentation.pptx
-│
-└── README.md
+After all iterations, the outputs correspond to cosine (x) and sine (y)
 
 
 ---
